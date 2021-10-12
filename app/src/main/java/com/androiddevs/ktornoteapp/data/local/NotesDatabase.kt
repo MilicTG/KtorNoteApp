@@ -1,8 +1,8 @@
-package com.androiddevs.ktornoteapp.local
+package com.androiddevs.ktornoteapp.data.local
 
 import androidx.room.Database
 import androidx.room.TypeConverters
-import com.androiddevs.ktornoteapp.local.entitys.Note
+import com.androiddevs.ktornoteapp.data.local.entitys.Note
 
 @Database(
     entities = [Note::class],
