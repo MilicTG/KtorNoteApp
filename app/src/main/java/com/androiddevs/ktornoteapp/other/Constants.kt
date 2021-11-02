@@ -9,6 +9,7 @@ object Constants {
     const val KEY_PASSWORD = "KEY_PASSWORD"
     const val NO_EMAIL = "NO_EMAIL"
     const val NO_PASSWORD = "NO_PASSWORD"
+    const val DEFAULT_NOTE_COLOR = "FFA500"
 
     val IGNORE_AUTH_URLS = listOf("/login", "/register")
 

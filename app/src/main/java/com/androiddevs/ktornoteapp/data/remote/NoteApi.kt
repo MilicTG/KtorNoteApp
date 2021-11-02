@@ -24,7 +24,7 @@ interface NoteApi {
     ): Response<SimpleResponse>
 
     @POST(value = "/addNote")
-    suspend fun AddNote(
+    suspend fun addNote(
         @Body note: Note
     ): Response<ResponseBody>
 
